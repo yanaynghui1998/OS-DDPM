@@ -4,9 +4,9 @@ Official PyTorch implementation of the MICCAI paper "OS-DDPM: One-Step Denoising
 
 Examples of the generated MR volumes via one-step diffusion:
 
-![](C:\Users\yanyanghui\Desktop\one-step-diffusion\OS-DDPM\figs\BraTS2024.gif) 
+![](https://github.com/yanaynghui1998/OS-DDPM/blob/main/figs/BraTS2024.gif) 
 
-![](C:\Users\yanyanghui\Desktop\one-step-diffusion\OS-DDPM\figs\IXI.gif)
+![](https://github.com/yanaynghui1998/OS-DDPM/blob/main/figs/IXI.gif)
 
 ## Abstract
 
@@ -16,15 +16,15 @@ Magnetic Resonance Imaging (MRI) typically acquires a volume by stacking thick s
 
 The training phase ((a) to (d)) and inference phase (e) of OS-DDPM are illustrated in the following figure:
 
-![](C:\Users\yanyanghui\Desktop\one-step-diffusion\OS-DDPM\figs\Framework.png)
+![](https://github.com/yanaynghui1998/OS-DDPM/blob/main/figs/Framework.png)
 
 The training phase of OS-DDPM can be summarized as the following pseudo-code:
 
-![](C:\Users\yanyanghui\Desktop\one-step-diffusion\OS-DDPM\figs\Algorithm.png)
+![](https://github.com/yanaynghui1998/OS-DDPM/blob/main/figs/Algorithm.png)
 
 The derivation of $\nabla_{\theta}L_{VSD}$ (Equation 5 in the paper) is as follows:
 
-![](C:\Users\yanyanghui\Desktop\one-step-diffusion\OS-DDPM\figs\derivation.png)
+![](https://github.com/yanaynghui1998/OS-DDPM/blob/main/figs/derivation.png)
 
 ## Datasets
 
@@ -34,7 +34,7 @@ Two public brain datasets are used to verify OS-DDPM, including the [BraTS 2024 
 
 Qualitative results of different methods on the BraTS 2024 dataset and the IXI dataset are shown in the following figure: 
 
-![](C:\Users\yanyanghui\Desktop\one-step-diffusion\OS-DDPM\figs\results.png)
+![](https://github.com/yanaynghui1998/OS-DDPM/blob/main/figs/results.png)
 
 ## Dependencies
 
